@@ -5,4 +5,6 @@
 }
 body {
   background-image: url();
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
 }
