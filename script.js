@@ -21,3 +21,11 @@ function countdown() {
   mins01.innerHTML = formatTime(mins);
   secs01.innerHTML = formatTime(seconds);
 }
+
+function formatTime(time) {
+  return time < 10 ? '0${time}' : time;
+}
+
+countdown();
+
+setInterval(countdown, 1000);
