@@ -4,3 +4,5 @@ const mins = document.getElementById('min');
 const secs = document.getElementById('sec');
 
 const newYear = 'January 1' + (getcurrentyear + 1);
+
+function
