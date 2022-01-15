@@ -6,5 +6,9 @@ const secs = document.getElementById('sec');
 const newYear = 'January 1' + (getcurrentyear + 1);
 
 function countdown() {
-  const getcurrentyear = new Date().getFullYear()
+  const getcurrentyear = new Date().getFullYear();
+  const newYearsDate = new Date(newYears);
+  const currentDate = new Date();
+
+  const totalSeconds = (newYearsDate - currentDate) / 1000;
 }
