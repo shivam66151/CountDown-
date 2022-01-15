@@ -5,4 +5,6 @@ const secs = document.getElementById('sec');
 
 const newYear = 'January 1' + (getcurrentyear + 1);
 
-function
+function countdown() {
+  const getcurrentyear = new Date().getFullYear()
+}
