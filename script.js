@@ -17,9 +17,9 @@ function countdown() {
   const secs = Math.floor(totalSeconds) % 60;
 
   daysE1.innerHTML = days;
-  hoursE1.innerHTML = format(hours);
-  minsE1.innerHTML = format(mins);
-  secsE1.innerHTML = format(secs);
+  hoursE1.innerHTML = formatTime(hours);
+  minsE1.innerHTML = formatTime(mins);
+  secsE1.innerHTML = formatTime(secs);
 }
 
 function formatTime(time) {
