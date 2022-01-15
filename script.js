@@ -11,4 +11,6 @@ function countdown() {
   const currentDate = new Date();
 
   const totalSeconds = (newYearsDate - currentDate) / 1000;
+
+  const days = Math.floor(totalSeconds / 3600 / 24);
 }
