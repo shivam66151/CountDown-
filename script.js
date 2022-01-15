@@ -1,1 +1,6 @@
-console.log('hello!')
+const days = document.getElementById('days');
+const hours = document.getElementById('hours');
+const mins = document.getElementById('min');
+const secs = document.getElementById('sec');
+
+const newYear = 'January 1' + (getcurrentyear + 1);
