@@ -1,7 +1,7 @@
-const daysE1 = document.getElementById('days');
-const hoursE1 = document.getElementById('hours');
-const minsE1 = document.getElementById('min');
-const secsE1 = document.getElementById('sec');
+const daysS1 = document.getElementById('days');
+const hoursS1 = document.getElementById('hours');
+const minsS1 = document.getElementById('min');
+const secsS1 = document.getElementById('sec');
 
 const currentYearEve = '31 Dec ' + new Date().getFullYear(); //Dynamic JS
 //const newYears = '1 Jan 2022'//
@@ -17,10 +17,10 @@ function countdown() {
   const mins = Math.floor(totalSeconds / 60) % 60;
   const secs = Math.floor(totalSeconds) % 60;
 
-  daysE1.innerHTML = days;
-  hoursE1.innerHTML = formatTime(hours);
-  minsE1.innerHTML = formatTime(mins);
-  secsE1.innerHTML = formatTime(secs);
+  daysS1.innerHTML = days;
+  hoursS1.innerHTML = formatTime(hours);
+  minsS1.innerHTML = formatTime(mins);
+  secsS1.innerHTML = formatTime(secs);
 }
 
 function formatTime(time) {
