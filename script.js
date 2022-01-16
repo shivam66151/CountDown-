@@ -3,7 +3,8 @@ const hoursE1 = document.getElementById('hours');
 const minsE1 = document.getElementById('min');
 const secsE1 = document.getElementById('sec');
 
-const currentYearEve = '31 Dec ' + new Date().getFullYear();
+const currentYearEve = '31 Dec ' + new Date().getFullYear(); //Dynamic JS
+//const newYears = '1 Jan 2022'//
 
 function countdown() {
   const newYearsDate = new Date(currentYearEve);
