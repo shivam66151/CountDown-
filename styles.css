@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to top, rgba(0,0,0,0.680), rgba(0,0,0,0.380)),url(party.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.680), rgba(0,0,0,0.580)),url(party.jpg);
   background-size: cover;
   background-position: center center;
   font-family: 'Poppins', sans-serif;
@@ -20,7 +20,7 @@ h1 {
   font-weight: normal;
   font-size: 6rem;
   margin-top: 5rem;
-  color: red;
+  color: #a9a9a9
 }
 
 .countdown-count {
@@ -32,10 +32,9 @@ h1 {
 
 .big-text {
   font-weight: bold;
-  font-size: 7rem;
+  font-size: 8rem;
   line-height: 1;
   margin: 1rem 2rem;
-  color: aqua;
 }
 
 .cd {
