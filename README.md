@@ -4,7 +4,7 @@ CountDown timer for new year
 - Design -> https://www.uidesigndaily.com/posts/sketch-countdown-timer-day-876
 ## Result
 
-![New Year](https://github.com/shivam66151/CountDown-NewYearEve/blob/master/countdown.gif)
+![New Year](https://github.com/shivam66151/CountDown-NewYearEve/blob/master/Screenshot%20(131).png)
 
 
 ## Tech Stack
