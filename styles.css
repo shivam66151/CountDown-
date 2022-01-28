@@ -5,11 +5,12 @@
 }
 
 body {
-  /* background: linear-gradient(to top, rgba(0,0,0,0.680), rgba(0,0,0,0.580)),url(party.jpg); */
-  background: url(party.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.680), rgba(0,0,0,0.580)),url(party.jpg);
+  
+  /* background: url(party.jpg);
   background-color: #ffffff10;
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); */
   background-size: cover;
   background-position: center center;
   font-family: 'Poppins', sans-serif;
