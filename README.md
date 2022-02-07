@@ -8,7 +8,7 @@ https://shivam66151.github.io/CountDown-NewYearEve/
 
 ## Screenshot
 
-![New Year](https://github.com/shivam66151/CountDown-NewYearEve/blob/master/Screenshot%20(131).png)
+![New Year](https://github.com/shivam66151/CountDown-NewYearEve/blob/master/Screenshot%20(140).png)
 
 
 ## Tech Stack
